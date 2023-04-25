@@ -24,5 +24,6 @@ namespace Evangzat.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+        
     }
 }

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Evangzat.HomePage"
+             Title="Evangzat">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="search.png"
+                     Priority="0"
+                     Order="Primary"
+                     Clicked="SearchLog_Clicked"
+                     />
+        
+        <ToolbarItem IconImageSource="cartwhite.png"
+                     Priority="1"
+                     Order="Primary"
+                     Clicked="CartLog_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#DDD">
+            <Label Text="Bienvenue sur Evangzat.com" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   BackgroundColor="#FFFFF" 
+                   TextColor="#000001"/>
+      </StackLayout>
+  </ContentPage.Content>
+    
+</ContentPage>

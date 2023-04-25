@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.evangzat">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0.0" package="ga.psikode.evangzat">
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
     <application android:label="Evangzat.Android" android:theme="@style/MainTheme"></application>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission-group.LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI-STATE" />
+	<uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK" />
+	<uses-permission android:name="android.permission.NFC_PREFERRED_PAYMENT_INFO" />
+	<uses-permission android:name="android.permission.NFC_TRANSACTION_EVENT" />
 </manifest>
